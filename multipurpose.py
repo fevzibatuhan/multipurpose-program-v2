@@ -23,7 +23,7 @@ def kullanici_girisi(kullanici_ad, sifre):
         return False
 
 
-
+print(""" MADE WOLFHO :) """)
 kullanici_ad = input("Kullanıcı adınızı girin: ")
 sifre = input("Şifrenizi girin (Sadece sayılar): ")
 
