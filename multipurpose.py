@@ -5,6 +5,13 @@ kamera = cv2.VideoCapture(0)
 kamera.release()
 cv2.destroyAllWindows()
 
+
+kullanici_bilgileri = {
+    "kullanici1": "1234",
+    "kullanici2": "4567",
+    "kullanici3": "7890",
+}
+
 print("""
 
  __       __            __    __      __                                                                                _______                                                                
@@ -20,12 +27,6 @@ $$/      $$/  $$$$$$/  $$/    $$$$/  $$/ $$$$$$$/   $$$$$$/  $$/       $$$$$$$/ 
                                          $$ |                          $$ |                                                                         $$    $$/                                  
                                          $$/                           $$/                                                                           $$$$$$/                                   
 Made Wolfho :) """)
-kullanici_bilgileri = {
-    "kullanici1": "1234",
-    "kullanici2": "4567",
-    "kullanici3": "7890",
-}
-
 
 def kullanici_girisi(kullanici_ad, sifre):
     if kullanici_ad in kullanici_bilgileri and kullanici_bilgileri[kullanici_ad] == sifre:
